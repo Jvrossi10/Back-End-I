@@ -43,4 +43,5 @@ public class Afiliado extends Vendedor{
                 "pontos=" + pontos +
                 '}';
     }
+
 }

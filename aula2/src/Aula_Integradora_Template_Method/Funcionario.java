@@ -50,4 +50,5 @@ public class Funcionario extends Vendedor{
                 ", anos=" + anos +
                 '}';
     }
+
 }

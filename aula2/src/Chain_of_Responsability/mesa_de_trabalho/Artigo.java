@@ -43,4 +43,5 @@ public class Artigo {
     public void setPeso(int peso) {
         this.peso = peso;
     }
+
 }

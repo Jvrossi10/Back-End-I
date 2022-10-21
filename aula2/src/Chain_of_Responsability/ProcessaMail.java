@@ -12,4 +12,5 @@ public class ProcessaMail {
         processo.verificar(new Mail("email@email.com", "tecnico@colmeia.com", "Reclamação"));
 
     }
+
 }

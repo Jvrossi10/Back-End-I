@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 
 public class ArtigoTest {
 
-
     @Test
     public void teste01(){
         //FORÇAR LOTE INVALIDO

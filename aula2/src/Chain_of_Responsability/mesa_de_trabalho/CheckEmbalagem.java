@@ -2,7 +2,6 @@ package Chain_of_Responsability.mesa_de_trabalho;
 
 public class CheckEmbalagem extends Verificador{
 
-
     @Override
     public void verificar(Artigo artigo) {
         if((artigo.getEmbalagem().equalsIgnoreCase("Não saudavel")) || (artigo.getEmbalagem().equalsIgnoreCase("Não saudável")) ) {
@@ -16,4 +15,5 @@ public class CheckEmbalagem extends Verificador{
 
         }
     }
+
 }

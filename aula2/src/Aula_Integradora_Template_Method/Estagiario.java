@@ -39,4 +39,5 @@ public class Estagiario extends Vendedor{
                 "pontos=" + pontos +
                 '}';
     }
+
 }

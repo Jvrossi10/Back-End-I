@@ -1,7 +1,6 @@
 package Chain_of_Responsability;
 
 public class CheckMail {
-
     Gerenciador inicial;
 
     public CheckMail(){

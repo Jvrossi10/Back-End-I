@@ -1,7 +1,6 @@
 package Chain_of_Responsability;
 
 public abstract class Gerenciador {
-
     protected Gerenciador gerenciadorSeguinte;
 
     public Gerenciador getGerenciadorSeguinte() {

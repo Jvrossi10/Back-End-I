@@ -23,4 +23,5 @@ public abstract class Vendedor {
     public abstract void recategorizar(Vendedor vendedor);
     public abstract void mostrarCategoria();
 
+
 }
