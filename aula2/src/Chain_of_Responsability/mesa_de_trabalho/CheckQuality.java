@@ -1,17 +1,20 @@
 package Chain_of_Responsability.mesa_de_trabalho;
 
-public abstract class CheckQuality {
+public class CheckQuality {
 
-    protected CheckQuality checkProximo;
+    Verificador inicial;
 
-    public CheckQuality getCheckProximo() {
-        return checkProximo;
+    public CheckQuality(){
+        this.inicial = new CheckLote();
+        Verificador checkPeso = new CheckPeso();
+        Verificador checkEmbalagem = new CheckEmbalagem();
+
+        inicial.setCheckProximo(checkPeso);
+        checkPeso.setCheckProximo(checkEmbalagem);
     }
 
-    public void setCheckProximo(CheckQuality checkProximo) {
-        this.checkProximo = checkProximo;
+    public void verificar(Artigo artigo){
+        inicial.verificar(artigo);
     }
-
-    public abstract void check(Artigo artigo);
 
 }

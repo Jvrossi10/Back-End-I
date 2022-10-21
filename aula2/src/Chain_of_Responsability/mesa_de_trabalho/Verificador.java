@@ -2,20 +2,21 @@ package Chain_of_Responsability.mesa_de_trabalho;
 
 import Chain_of_Responsability.Mail;
 
-public class Verificador {
+public abstract class Verificador {
 
-    Verificador inicial;
+    protected Verificador checkProximo;
+    protected int cont;
 
-    public Verificador(){
-        CheckQuality checkLote = new CheckLote();
-        CheckQuality checkPeso = new CheckPeso();
-        CheckQuality checkEmbalagem = new CheckEmbalagem();
-
-        //buguei aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-
+    public Verificador getCheckProximo() {
+        return checkProximo;
     }
-    public void verificar(Artigo artigo){
-        inicial.verificar(artigo);
+
+    public void setCheckProximo(Verificador checkProximo) {
+        this.checkProximo = checkProximo;
     }
+
+    public abstract void verificar(Artigo artigo);
 
 }
+
+
