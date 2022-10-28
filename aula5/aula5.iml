@@ -23,7 +23,7 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
-      <library>
+      <library name="Log4j">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../../LOG4J/apache-log4j-1.2.17/log4j-1.2.17.jar!/" />
         </CLASSES>

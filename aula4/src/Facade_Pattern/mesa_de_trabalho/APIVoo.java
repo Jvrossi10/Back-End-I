@@ -1,13 +1,20 @@
 package Facade_Pattern.mesa_de_trabalho;
 
+import java.util.HashMap;
+
 public class APIVoo {
 
-    public String reservarVoo(Voo voo, Viagem viagem) {
-        if ((viagem.getDataPartida() == voo.getDataPartida()) && (viagem.getOrigem() == voo.getOrigem()) && (viagem.getDestino() == voo.getDestino()) ) {
-            return "Voo agendado com sucesso!";
-        } else {
-            return "Não há voos disponíveis para a data selecionada!";
+
+    public String reservarVoo(Viagem viagem) {
+        HashMap<Integer, Voo> vooMap = new HashMap<>();
+        Integer i = 0;
+        if(vooMap.isEmpty()){
+            Voo voo1 = new Voo(viagem.getDataPartida(),viagem.getOrigem(), viagem.getDestino());
+            vooMap.put(i++, voo1);
         }
+
+
+        return "";
     }
 
 }

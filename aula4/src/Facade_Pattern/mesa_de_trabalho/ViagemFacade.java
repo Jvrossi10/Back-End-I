@@ -14,10 +14,9 @@ public class ViagemFacade implements IViagemFacade {
 
 
 
-    public void agendarViagem(LocalDate dataPartida, LocalDate dataRetorno, String origem, String destino) {
-        String agendar;
-        Viagem viagem = new Viagem(dataPartida,dataRetorno,origem,destino);
-        agendar = apiVoo.reservarVoo(viagem.getDataPartida(),viagem.getDestino())
+    public Viagem agendarViagem(Viagem viagem) {
+
+        return null;
     }
 }
 

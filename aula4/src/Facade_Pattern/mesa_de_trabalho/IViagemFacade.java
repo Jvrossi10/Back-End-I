@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public interface IViagemFacade {
 
-    public void agendarViagem(LocalDate dataPartida, LocalDate dataRetorno, String origem, String destino);
+    Viagem agendarViagem(Viagem viagem);
 
 }
 
