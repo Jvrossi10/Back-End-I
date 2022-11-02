@@ -16,9 +16,9 @@ public class Main {
         Statement statement = connection.createStatement(); // vai enviar a query para o banco de dados
 
         String sqlCreateTable = "DROP TABLE IF EXISTS Animal; CREATE TABLE Animal" + "(" +
-                "Id INT PRIMARY KEY" +
-                "Nome VARCHAR(150) NOT NULL" +
-                "Tipo VARCHAR(150) NOT NULL" + ")";
+                " Id INT AUTO_INCREMENT PRIMARY KEY, " +
+                "Nome VARCHAR(150) NOT NULL, " +
+                "Tipo VARCHAR(150) NOT NULL " + ")";
         statement.execute(sqlCreateTable);
 
         String sqlInsert1 = "INSERT INTO Animal (Id, Nome, Tipo) VALUES (1, 'Meg', 'Cadela')";
