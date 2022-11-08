@@ -29,7 +29,7 @@ public class Main {
         }
 
         List<Contato> contatoList2 = null;
-        FileInputStream fileInputStream = null; //serve para buscar os arquivos serializados
+        FileInputStream fileInputStream = null;
 
         try{
             fileInputStream = new FileInputStream("ContatoOutputFile.txt");
