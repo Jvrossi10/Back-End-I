@@ -22,7 +22,7 @@ public class ConfigJDBC {
 
         public ConfigJDBC(){
             this.jdbcDriver = "org.h2.Driver";
-            this.dbUrl = "jdbc:h2:mem:hotel;DB_CLOSE_DELAY=-1;INIT=RUNSCRIPT FROM 'create.sql'";
+            this.dbUrl = "jdbc:h2:mem:hotel;DB_CLOSE_DELAY=-1;INIT=RUNSCRIPT FROM 'src/test/create.sql'";
             this.nomeUsuario = "sa";
             this.senha="";
         }

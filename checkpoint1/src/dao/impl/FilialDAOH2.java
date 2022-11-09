@@ -9,6 +9,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 
+
 public class FilialDAOH2 implements iDAO<Filial> {
 
     private ConfigJDBC configJDBC;

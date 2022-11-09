@@ -23,8 +23,10 @@ public class PacienteDAOH2 implements IDao<Paciente> {
         log.debug("Registrando um novo paciente: "+ paciente.toString());
         Connection connection = configuracaoJDBC.conectarComBancoDeDados();
         Statement statement = null;
-        String query = String.format("INSERT INTO pacientes(nome, sobrenome, rg, dataCadastro) VALUES ('%s', '%s','%s','%s')",
-                paciente.getNome(), paciente.getSobrenome(), paciente.getRg(), paciente.getDataCadastro());
+        String query = String.format("INSERT INTO Pacientes(nome, sobrenome, rg, dataCadastro) VALUES ('%s', '%s','%s','%s')",
+                paciente.getNome(), paciente.getSobrenome(), paciente.getRg(), paciente.getDataCadastro()
+        );
+        
         try{
             statement = connection.createStatement();
             statement.executeUpdate(query, Statement.RETURN_GENERATED_KEYS);
