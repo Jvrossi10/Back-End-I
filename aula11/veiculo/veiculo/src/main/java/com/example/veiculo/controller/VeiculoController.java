@@ -16,14 +16,12 @@ public class VeiculoController {
 
     private final IVeiculoService vs;
 
-
     @Autowired
     public VeiculoController(IVeiculoService vs){
         this.vs = vs;
     }
 
     @GetMapping
-
     public List<Veiculo> getVeicuo(){
         return vs.listVeiculo();
     }

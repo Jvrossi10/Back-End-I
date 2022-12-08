@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f1550fa0-8cdf-43a6-af60-cb5a333e09d9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../aula5.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula8/src/dao/impl/PacienteDAOH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula8/src/dao/impl/PacienteDAOH2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checkpoint1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../checkpoint1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checkpoint1/checkpoint1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../checkpoint1/checkpoint1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checkpoint1/out/production/checkpoint1/create.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checkpoint1/out/production/checkpoint1/dao/impl/ConfigJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../checkpoint1/out/production/checkpoint1/dao/impl/ConfigJDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checkpoint1/out/production/checkpoint1/dao/impl/FilialDAOH2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../checkpoint1/out/production/checkpoint1/dao/impl/FilialDAOH2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checkpoint1/out/production/checkpoint1/test/FilialServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../checkpoint1/out/production/checkpoint1/test/FilialServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checkpoint1/src/dao/impl/ConfigJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../checkpoint1/src/dao/impl/ConfigJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checkpoint1/src/dao/impl/FilialDAOH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../checkpoint1/src/dao/impl/FilialDAOH2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../checkpoint1/src/test/FilialServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../checkpoint1/src/test/FilialServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +21,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Jvros/OneDrive/Área de Trabalho/Digital House/4º bimestre/Back End I/aula11"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jvros/OneDrive/Área de Trabalho/Digital House/4º bimestre/Back End I/aula11&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
