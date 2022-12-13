@@ -14,7 +14,8 @@
 - JPA Hibernate 
 - MongoDB
 - Exception 
-
+- Spring security 
+- Teste de integração 
 
 
 <div align="center">
